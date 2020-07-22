@@ -4,7 +4,7 @@ issueTrackerURL="https://github.com/Asfhen/terracraft/issues"
 
 [[mods]]
 modId="terracraft"
-version="1.16.1-0.0.1"
+version="1.16.1-0.1.0"
 displayName="TerraCraft"
 updateJSONURL="https://github.com/Asfhen/terracraft"
 displayURL="https://github.com/Asfhen/terracraft"

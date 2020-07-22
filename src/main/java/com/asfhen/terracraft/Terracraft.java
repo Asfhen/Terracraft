@@ -1,7 +1,5 @@
 package com.asfhen.terracraft;
 
-import com.asfhen.terracraft.util.blocks.OreBlockRegistryHandler;
-import com.asfhen.terracraft.util.items.OreIngontRegistryHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -20,8 +18,6 @@ public class Terracraft
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
-        OreIngontRegistryHandler.init();
-        OreBlockRegistryHandler.init();
 
         MinecraftForge.EVENT_BUS.register(this);
     }

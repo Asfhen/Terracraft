@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[32,)"
+issueTrackerURL="https://github.com/Asfhen/terracraft/issues"
+
+[[mods]]
+modId="terracraft"
+version="1.16.1-0.0.1"
+displayName="TerraCraft"
+updateJSONURL="https://github.com/Asfhen/terracraft"
+displayURL="https://github.com/Asfhen/terracraft"
+logoFile=""
+credits="I must thank my friends who helped me doing it, without them this mod wouldn't exist"
+authors="Asfhen"
+description='''
+TerraCraft is a mod that adds a lot of different things from terraria, such as weapons, tool and bosses.
+I hope you all can enjoy it.
+'''
+
+[[dependencies.terracraft]]
+    modId="forge"
+    mandatory=true
+    versionRange="[32,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.terracraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1,)"
+    ordering="NONE"
+    side="BOTH"

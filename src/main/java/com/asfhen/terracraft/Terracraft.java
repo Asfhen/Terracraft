@@ -1,5 +1,6 @@
 package com.asfhen.terracraft;
 
+import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -11,8 +12,8 @@ import org.apache.logging.log4j.Logger;
 @Mod("terracraft")
 public class Terracraft
 {
-    private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "terracraft";
+    public static final Logger LOGGER = LogManager.getLogger();
+    public static final ItemGroup GROUP = new TerracraftGroup(Reference.MOD_ID);
 
     public Terracraft() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);

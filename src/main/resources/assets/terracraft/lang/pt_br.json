@@ -1,0 +1,14 @@
+{
+  "itemGroup.terracraft": "TerraCraft",
+
+  "block.terracraft.copper_ore": "Minério de Cobre",
+  "block.terracraft.tin_ore": "Minério de Estanho",
+  "block.terracraft.lead_ore": "Minério de Chumbo",
+  "block.terracraft.silver_ore": "Minério de Prata",
+  "block.terracraft.tungsten_ore": "Minério de Tungstênio",
+  "block.terracraft.platinum_ore": "Minério de Platina",
+  "block.terracraft.hellstone_ore": "Pedra Infernal",
+  "block.terracraft.meteorite_ore": "Meteorito",
+  "block.terracraft.demonite_ore": "Minério de Demonita",
+  "block.terracraft.crimtane_ore": "Minério de Carmim"
+}

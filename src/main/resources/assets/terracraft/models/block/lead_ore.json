@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "terracraft:blocks/lead_ore"
+  }
+}

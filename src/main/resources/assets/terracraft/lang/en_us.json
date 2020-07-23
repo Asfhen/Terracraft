@@ -1,0 +1,14 @@
+{
+  "itemGroup.terracraft": "TerraCraft",
+
+  "block.terracraft.copper_ore": "Copper Ore",
+  "block.terracraft.tin_ore": "Tin Ore",
+  "block.terracraft.lead_ore": "Lead Ore",
+  "block.terracraft.silver_ore": "Silver Ore",
+  "block.terracraft.tungsten_ore": "Tungsten Ore",
+  "block.terracraft.platinum_ore": "Platinum Ore",
+  "block.terracraft.hellstone_ore": "Hellstone",
+  "block.terracraft.meteorite_ore": "Meteorite",
+  "block.terracraft.demonite_ore": "Demonite Ore",
+  "block.terracraft.crimtane_ore": "Crimtane Ore"
+}
